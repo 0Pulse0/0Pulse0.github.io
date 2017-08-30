@@ -1,0 +1,120 @@
+﻿img.fon {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
+/* MAIN CONTAINER */
+.container						{ margin: 0 auto; }
+
+
+.row:after, .col:after, .clr:after, .group:after { 
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; }
+
+
+/* DEFAULT ROW STYLES */
+.row { margin-bottom: 1.5em; } 
+			
+								  
+/* DEFAULT COLUMN STYLES */
+.col { 
+	display: block;
+	float:left;
+	width: 100%;
+}
+
+@media ( min-width : 768px ) {
+	.col {
+		margin-left: 2%;
+	}
+}
+
+
+/* RESET MARGINS */
+.col:first-child { margin-left: 19%; } 
+
+
+/* COLUMN WIDTH ON DISPLAYS +768px */
+@media ( min-width : 10px ) {
+	.span_1 { width: 6.5%; }
+	.span_2 { width: 15.0%; }
+	.span_3 { width: 23.5%; }
+	.span_4 { width: 32.0%; }
+	.span_5 { width: 40.5%; }
+	.span_6 { width: 49.0%; }
+	.span_7 { width: 57.5%; }
+	.span_8 { width: 66.0%; }
+	.span_9 { width: 74.5%; }
+	.span_10 { width: 83.0%; }
+	.span_11 { width: 91.5%; }
+	.span_12 { width: 100%; }
+	.Intro{
+		width:28%;
+		color:white;
+		font-size:1.2vw;
+	}
+	.Hello{
+		width:40%;
+		color:IndianRed;
+		text-shadow: 7px 7px 7px black;
+		font-size: 3vw;
+		margin-left:30%;	}
+	.span_h1 {	
+		width:30%;
+		color:IndianRed;
+		text-shadow: 7px 7px 7px black;
+		font-size: 2vw;
+		margin-left:19%;}
+	.Header_IMG {
+		border: 6px solid white; 
+		border-radius:15px; 
+		margin-left:6%;
+		width: 23.5%;}	
+	.Navig{
+		cursor:pointer;
+		width:15%;}
+	.Text_Fon{
+		margin-left:19%;
+		width:38%;
+		opacity:0.7;
+		border: 2px solid black;
+        	background-image:url("Images/Text_Fon.jpg");
+		color:white;
+        	font-size:1vw; }
+	.Popular_Composition{
+		padding-left: 30px;
+		padding-top: 7px;
+		margin-left:19%;
+		width:25%;
+		opacity:0.6;
+		border: 2px solid Aqua;
+        	background-image:url("Images/Text_fon.jpg");
+		color:White;
+		text-shadow: 5px 5px 5px blue;
+        	font-size:1.6vw; }
+	.Gallery{
+		width:20%;
+		border: 2px solid black;}
+	.Btn{
+		cursor:pointer;
+		border: 2px solid black;
+		width:20%;
+		margin-left:59.23%;}
+	.Footer{
+		padding-top: 7px;
+		width:60%;
+        	background-image:url("Images/Text_fon.jpg");
+		color:gold;
+		border: 2px solid black;
+        	font-size:1.2vw;}
+											
+}
+
+
